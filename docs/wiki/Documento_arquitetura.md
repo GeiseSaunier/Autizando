@@ -3,22 +3,20 @@
 
 | Versão  |  Data  | Autor  |  Descrição  |
 | ------------------- | ------------------- | ------------------- | ------------------- |
-| 0.1 | 05/09/2020  | Francisco   | Estrutura inicial  |
-| 0.2 | 06/09/2020  | Liverson e Francisco  | Implementação da representação de arquitetura |
-| 0.3 | 06/09/2020  | Liverson e Francisco  | Implementação das metas e restrições da arquitetura|
-| 0.4 | 06/09/2020  | Liverson e Francisco  | Implementação da Introdução do Documento de arquitetura|
-| 0.5 | 10/09/2020  | Francisco e Edson  | Implementação do MER|
-| 0.6 | 11/09/2020  | Francisco e Edson  | Criação do DER|
-| 0.7 | 11/09/2020  | Liverson e Giulia  | Adição do diagrama de casos de uso|
-| 0.8 | 13/09/2020  | Francisco e Edson  | Ajustes no MER|
-| 0.9 | 13/09/2020  | Francisco e Edson  | Ajustes no DER|
-| 1.0 | 22/09/2020  | Edson e Francisco  | Revisão do documento de arquitetura|
-| 1.1 | 23/09/2020  | Edson e Francisco  | Diagrama de representação|
-| 1.2 | 02/10/2020  | Edson e Geise  | Atualização do DER |
-| 1.3 | 03/10/2020  | Edson e Geise  | Inclusão de tecnologias e alteração de tripulante para passageiro |
-| 1.4 | 11/10/2020  | Liverson e Francisco  | Atualização na descrição da nossa arquitetura MVC |
-| 1.5 | 11/10/2020  | Liverson e Francisco  | Adição dos tópicos 5.1 e 5.2 |
-| 1.6 | 11/10/2020  | Liverson e Giulia  | Adição dos usuários dos casos de uso e trocando as descrições de casos de uso para 5.3 |
+| 0.1 | 10/09/2021  | @GeiseSaunier   | Estrutura inicial  |
+| 0.2 | 11/09/2021 | @GeiseSaunier e @IanoMaciel  | Implementação da representação de arquitetura |
+| 0.3 | 11/09/2021  | @GeiseSaunier e @IanoMaciel | Implementação das metas e restrições da arquitetura|
+| 0.4 | 11/09/2021  | @GeiseSaunier e @IanoMaciel  | Implementação da Introdução do Documento de arquitetura|
+| 0.5 |   | @GeiseSaunier e @IanoMaciel | Implementação do MER|
+| 0.6 |   | @GeiseSaunier e @IanoMaciel | Criação do DER|
+| 0.7 |   | @GeiseSaunier e @IanoMaciel  | Adição do diagrama de casos de uso|
+| 0.8 |   | @GeiseSaunier e @IanoMaciel  | Ajustes no MER|
+| 0.9 |   | @GeiseSaunier e @IanoMaciel   | Ajustes no DER|
+| 1.0 |   | @GeiseSaunier e @IanoMaciel  | Revisão do documento de arquitetura|
+| 1.1 |   | @GeiseSaunier e @IanoMaciel   | Diagrama de representação|
+| 1.2 |   | @GeiseSaunier e @IanoMaciel   | Atualização do DER |
+| 1.3 |   | @GeiseSaunier e @IanoMaciel   | Inclusão de tecnologias e alteração de tripulante para passageiro |
+| 1.4 |   | @GeiseSaunier e @IanoMaciel  | Atualização na descrição da nossa arquitetura MVC |
 
 
 ## Sumário
@@ -36,7 +34,7 @@
 
 3- [Metas e Restrições da Arquitetura](#3---Metas-e-Restrições-da-Arquitetura)
 
-* [ 3.1- Metas da Ziguen](#3.1--Metas-da-Ziguen)
+* [ 3.1- Metas do Autizando](#3.1--Metas-do-Autizando)
 * [3.2- Restrições da Arquitetura](#3.2--Restrições-da-Arquitetura)
 
 
@@ -46,9 +44,7 @@
   * [4.1.2 Relacionamento](4.1.2-Relacionamento)
 
 * [4.2 DER
-](#4.2-DER
-)
-
+](#4.2-DER)
 
 5- [Visão de Caso de Uso](#5---Visão-de-Caso-de-Uso)
 * [5.1 - Diagrama de Caso de uso](#5.1---Diagrama-de-Caso-de-uso)
@@ -56,17 +52,18 @@
 * [5.3- Descrições de Caso de Uso3](#5.3----Descrições-de-Caso-de-Uso)
 
 
-7- [Referências Bibliográficas](#7---Referências-Bibliográficas)
+6- [Referências Bibliográficas](#7---Referências-Bibliográficas)
 
 
 ## 1- Introdução
 
 ### 1.1 - Finalidade
-O objetivo deste documento é apresentar a arquitetura do projeto Ziguen. Apresentando os principais aspectos do software como um todo, apresentando decisões arquiteturais para o projeto e por fim contém informações que serão utilizadas por desenvolvedores e gestores para compreender a arquitetura utilizada no desenvolvimento, fluxo de informações e as tecnologias envolvidas no projeto.
+O objetivo deste documento é apresentar a arquitetura do projeto Autizando. Apresentando os principais aspectos do software como um todo, apresentando decisões arquiteturais para o projeto e por fim contém informações que serão utilizadas por desenvolvedores e gestores para compreender a arquitetura utilizada no desenvolvimento, fluxo de informações e as tecnologias envolvidas no projeto.
 
 ### 1.2 - Escopo
-A ferramenta ZIGUEN tem o propósito de facilitar a integração entre usuários do transporte fluvial e aqueles que detém a propriedade sobre esses meios de transporte, para que assim, o processo de comprar passagens em embarcações seja mais rápido, cômodo, seguro, além de inovador e intuitivo. A ferramenta trata-se de uma aplicação mobile e plataforma web onde as pessoas poderão adquirir passagens sem sair de casa, podendo conferir disponibilidade, horários e formas de pagamento com alguns cliques.
 
+O AUTIZANDO tem o propósito de tornar a consulta de pessoas portadoras do Transtorno do Espectro Autista - TEA  acessível e ágil, concentrando todas as informações necessárias para encontrar o especialista mais próximo em um único aplicativo. 
+A ferramenta trata-se de um aplicativo mobile, onde poderão ser cadastrados pessoas portadoras do TEA e profissionais especialistas em diversas áreas, como por exemplo psiquiatra, psicólogo, etc. Além disso, o autista e o profissional deverão inserir sua localidade, para que assim o autista possa ser atendido por aquele mais próximo.
 
 ### 1.3 - Visão Geral
 O documento está segmento em Representação de Arquitetura, Metas e Restrições da Arquitetura, Visão de Casos de Uso, Visão Lógica e Visão de Dados.
@@ -78,9 +75,9 @@ O documento está segmento em Representação de Arquitetura, Metas e Restriçõ
 * Promises: Uma Promise é um objeto que representa a eventual conclusão ou falha de uma operação assincrona.
 * ORM: Mapeamento objeto-relacional é uma técnica de desenvolvimento utilizada para reduzir a impedância da programação orientada aos objetos utilizando bancos de dados relacionais
 
-## 2 - Representação de Arquitetura
+## 2 - Esquemático da Arquitetura
 
-![Diagrama de representação](https://raw.githubusercontent.com/fga-eps-mds/2020-1-Ziguen/develop/docs/diagramas/diagrama_representacao.png)
+![Esquemático da arquitetura](./../imagens/arq.esquema.png)
 
 ### 2.1 - Padrão Arquitetural	
 
@@ -96,151 +93,91 @@ Front-end: View
 ### 2.2 - Tecnologias
 |tecnologias | descrição |
 | ------------------- | ------------------- |
-|Bootstrap |  Framework para desenvolvimento em HTML, CSS e JS. |
-| React |  Biblioteca em javascript com foco em criar inteface de usuário em páginas web. |
-|Cascading Style Sheets (CSS) |  Alia-se no desenvolvimento do frontend junto com HTML e JS. |
+| React Native | é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa. |
+| Expo |  é uma estrutura/plataforma para aplicações universais react. É um conjunto de ferramentas e serviços construídos em torno de plataformas nativas (react native) que ajudam você a desenvolver, construir, implantar e rapidamente iterar em aplicativos iOS, Android e web a partir da mesma base de código JavaScript/TypeScript. |
 |Docker |  Utilizado para configurar o ambiente de desenvolvimento. |
 |Docker-compose |  Usado para orquestrar os containers do docker |
-|Express.js | é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel |
 |Git | Git é uma ferramenta de versionamento de arquivos de código livre |
-|HTML |  Alia-se no desenvolvimento do frontend junto com CSS e JS |
 |JavaScript |  Alia-se no desenvolvimento do frontend junto com HTML e CSS |
 | Jest |  Estrutura de teste de JavaScript |
-|Node.js | é uma plataforma para construir aplicações web escaláveis de alta performance usando JavaScript |
 |Postgres | PostgreSQL é um sistema gerenciador de banco de dados objeto relacional (SGBD), desenvolvido como projeto de código aberto |
 |Travis-CI | é um serviço de integração contínua distribuído e disponível na nuvem, utilizado para criar e testar projetos de software hospedados no GitHub |
-| Sequelize| ORM baseado em promises para Node.js, que suporta vários dialetos, entre eles PostgreSQL |
 
 
 ## 3 - Metas e Restrições da Arquitetura
-### 3.1- Metas da Ziguen
-* Facilitar a compra de passagens;
-* Facilitar os transportes fluviais;
-* Diminuir tempos de espera em filas para compra de passagens.
+### 3.1- Metas do Autizando
+* Facilitar o contato entre autistas e profissionais mais próximos;
+* Facilitar a consulta do usuário autista com o profissional mais próximo;
+* Diminuir tempos de procura por profissionais que atendam por um valor social;
 
 ### 3.2- Restrições da Arquitetura
 * Ter acesso à internet;
-* Criar um cadastro ziguen;
-* Ter um navegador de internet.
+* Usuários realizarem cadastro no aplicativo;
 
 ## 4 - Visão de Dados
 ### 4.1 - MER
 #### 4.1.1 -Entidades
 
-**USUARIO**
+**USUARIO AUTISTA**
 
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
 |idUsuario | Chave primária obrigatória| String| Identificação do Usuário|
 |nome| Obrigatório| String | Nome do usuário|
 | email | Obrigatório | String | Email do usuário|
-| cpf | Obrigatório | String | cpf do usuário|
-|telefone |Obrigatório |String | Login do usuário|
+|telefone |Obrigatório |String | Telefone do usuário|
+|cidade |Obrigatório |String | Cidade do usuário|
+|estado |Obrigatório |String | Estado do usuário|
+|idade |Obrigatório |String | Idade do usuário|
 |senha| Obrigatório |String | Senha do usuário |
 
-**ADMINISTRADOR**
+**USUÁRIO PROFISSIONAL**
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
 |idAdm |Chave primária obrigatória | String | Identificação do Administrador|
-|idUsuario| Chave estrangeira obrigatória | String | Identificação do usuário|
-|idPassagem |Chave estrangeira obrigatória | String | Identificação do Proprietário|
-
-
-**PASSAGEIRO**
-
-|Atributos| Propriedade | Tipo | Descrição|
-|-----|-----|------|-----|
-|idPassageiro |Chave primária obrigatória | String | Identificação do Passageiro|
-|idUsuario| Chave estrangeira obrigatória | String | Identificação do usuário|
-
-**PROPIETARIO**
-|Atributos| Propriedade | Tipo | Descrição|
-|-----|-----|------|-----|
-|idProprietario |Chave primária obrigatória | String | Identificação do Proprietário|
-|idUsuario| Chave estrangeira obrigatória | String | Identificação do usuário|
-
-**EMBARCACAO**
-
-|Atributos| Propriedade | Tipo | Descrição|
-|-----|-----|------|-----|
-|idEmbarcacao| Chave primária obrigatória| String | Idetificação da embarcação|
-|idProprietario |Chave estrangeira obrigatória | String | Identificação do proprietário|
-|nome | Obrigatório | String | Nome da embarcação|
-|capacidade | Obrigatório | Integer | Capacidade da embarcação|
-
-
-
-**VIAGEM**
-|Atributos| Propriedade | Tipo | Descrição|
-|-----|-----|------|-----|
-|idViagem|Chave primária obrigatória | String | Identificação da viagem|
-|idEmbarcação| Chave estrangeira obrigatória| String | Idetificação da embarcação|
-|origem | Obrigatório | String | Origem da viagem|
-|destino |Obrigatório | String | Destino da viagem|
-|data | Obrigatório | String | Data da viagem|
-|horario | Obrigatório| String | Horário da viagem|
-
-
-**PASSAGEM**
-|Atributos| Propriedade | Tipo | Descrição|
-|-----|-----|------|-----|
-|idPassagem |Chave primária obrigatória| String| Identificação da passagem|
-|idViagem| Chave estrangeira obrigatória | String | Identificação da viagem|
-|idPassageiro |Chave estrangeira obrigatória | String | Identificação do passageiro|
-|preco| Obrigatória | String | Preço da passagem|
+|idUsuario| Chave estrangeira obrigatória | String | Identificação do usuário profissional|
+|nome| Obrigatório| String | Nome do usuário profissional|
+| email | Obrigatório | String | Email do usuário profissional|
+|telefone |Obrigatório |String | Telefone do usuário profissional|
+|cidade |Obrigatório |String | Cidade do usuário profissional|
+|estado |Obrigatório |String | Estado do usuário profissional|
+|área de formação |Obrigatório |String | área de formação do usuário profissional|
+|senha| Obrigatório |String | Senha do usuário profissional |
 
 
 #### 4.1.2 Relacionamento
 
-**VIAGEM** -- gera -- **PASSAGEM** Uma viagem gera varias passagens, e uma passagem é valida apena para uma viagem. (Cardinalidade 1:n)
+**USUÁRIO AUTISA** -- localiza -- **USUÁRIO PROFISSIONAL** Um usuário autista pode localizar vários profissionais, se existirem mais de um próximo a localização do usuário autista. Nesse sentido, um profissional pode ser localizado por vários usuários autistas. (Cardinalidade n:n)
 
-**EMBARCACAO** -- realiza -- **VIAGEM** Uma embarcação pode realizar uma ou mais viagens e uam viagem pode ser realizadas por varias embarcações. (Cardinalidade n:m)
-
-**ADMINISTRADOR** -- cadastra -- **EMBARCACAO** O administrador responsável por cadastrar varias embarcações e as embarcaçãoes são cadastradas por um administrador. (Cardinalidade 1:n)
-
-**ADMINISTRADOR** -- cadastra -- **PROPRIETARIO** O administrador responsável por cadastrar varios proprietários de embarcaçãoes são cadastradas por um administrador. (Cardinalidade 1:n)
-
-**Passageiro** -- compra -- **VIAGEM** Um passageiro compra uma única viagem, uma viagem poder ser vendida para varios Passageiro. (Cardinalidade 1:n)
- 
+**USUÁRIO AUTISA** -- envia notificação para -- **USUÁRIO PROFISSIONAL** Um usuário autista pode enviar uma única notificação para vários profissionais, dependendo do atendimento necessário no momento. Nesse sentido, um usuário profissional pode receber notificação de vários usuários autistas. (Cardinalidade 1:n)
 
 
 ### 4.2 DER
 
-![DER 0.1](https://raw.githubusercontent.com/fga-eps-mds/2020-1-Ziguen/develop/docs/diagramas/der.jpg)
+![DER 0.1]()
 
 ## 5 - Visão de Caso de Uso
 
 ### 5.1 Diagrama de Caso de uso
-![Diagrama de casos de uso 0.1](https://github.com/fga-eps-mds/2020-1-Ziguen/blob/develop/docs/diagramas/Diagrama_Casos_de_Uso.png)
+![Diagrama de casos de uso 0.1]()
 
 ### 5.2 Atores de Caso de Uso
 
 |Ator| Descrição |
+|-----|-----|
 |Usuário| São todos os que forem utilizar o site |
-|Passageiro| É quem vai utilizar o site para compra de passagens|
-|Administrador| É quem irá fazer a manutenção do site com as devidas mudanças caso necessário |
-|Proprietário de embarcação| É quem vai utilizar o site para visualizar o desempenho de vendas  |
+|Autista| É o usuário responsável por localizar o profissional mais próximo e enviar uma notificação|
+|Profissional/Especialista| É o usuário que receberá a notificação do usuário autista e entrará em contato com ele |
+
 
 ### 5.3 Descrições de Caso de Uso
 
 |Casos de uso| Ator | Descrição|
 |-----|-----|------|
-| UC01 - Manter conta | Usuário | O usuário tem as opções de atualizar informações da conta assim como pode também apagá-la |
-| UC02 - Pesquisar passagem | Passageiro | O passageiro pode pesquisar a passagem da viagem da qual planeja fazer |
-| UC03 - Visualizar passagem | Passageiro | O passageiro pode visualizar a passagem que deseja comprar|
-| UC04 - Visualizar quantidade de assentos disponíveis | Passageiro | O passageiro poderá ver os assentos que ainda estão disponíveis da viagem que pretende fazer|
-| UC05 - Comprar passagem| Passageiro | O passageiro poderá comprar a passagem que deseja|
-| UC06 - Visualizar passagem comprada| Passageiro | Depois de comprar a passagem o passageiro poderá visualizar novamente as passagens que comprou |
-| UC07 - Entrar em contato com o administrador| Passageiro e proprietário | Aqui estes usuários podem entrar em contato com os administradores para poder sanar suas dúvidas e dar sugestões |
-| UC08 - Visualizar embarcações dele cadastradas| Proprietário| O proprietário poderá ver quais embarcações estão linkadas ao seu nome |
-| UC09 - Visualizar como estão as compras de passagens| Proprietário e administrador | Os usuários citados poderão ver como estão os andamentos de vendas de passagens |
-| UC10 - Cadastro do dono de embarcação| Administrador | O administrador pode adicionar um novo proprietário de embarcação na plataforma |
-| UC11 - Cadastro de embarcação| Administrador | O administrador pode adicionar uma nova embarcação de um proprietário na plataforma |
-| UC12 - Cadastro de viagens referentes a cada embarcação| Administrador | Adicionar novas viagens que são feitas pelas embarcações correspondentes |
-| UC13 - Alteração no cadastro de embarcação| Administrador | O administrador pode mudar informações que foram feitas no cadastro de uma embarcação |
-| UC14 - Exclusão de embarcação| Administrador | Caso necessário o administrador pode excluir por completo uma embarcação |
-| UC15 - Resolução de problemas de usuários clientes| Administrador | O administrador terá que ajudar clientes da aplicação em caso de necessidade |
-
+| UC01 - Criar conta | Usuário | O usuário tem a opção de criar conta, com as informações exigidas, antes de fazer login |
+| UC02 - Manter conta | Usuário | O usuário tem as opções de atualizar informações da conta assim como pode também apagá-la |
+| UC02 - Pesquisar profissional | Autista | O usuário autista pode pesquisar pelo profissional mais próximo |
+| UC03 - Enviar notificação | Autista | Ao localizar o profissional desejado, o autista tem a opção de enviar uma notificação, com nome e número de telefone para que ele mantenha contato |
 
 ## 6 - Referências Bibliográficas
 
