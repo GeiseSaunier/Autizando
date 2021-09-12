@@ -1,14 +1,13 @@
 # Histórico de Versionamento
 Data|Versão|Descrição|Autor
 -|-|-|-
-|09/09/2020 |1.0.0 |Criando estrutura do arquivo | @Francisco1code|
-09/09/2020|1.0.1|Adição dos artefatos da metodologia aplicada | @GeiseSaunier
-09/09/2020|1.0.2|Adição das nossas modificações em cima do SCRUM | @GeiseSaunier
-11/09/2020 |1.0.3|Adição do diagrama metodológico do time | @Francisco1code |
-15/09/2020 |1.0.4|Atualização dos novos dias da Daily | @GeiseSaunier |
-07/10/2020 |1.0.5|Atualização dados da Daily, hora da reunião | @edsondearaujo |
-07/10/2020 |1.0.6|Atualização dados do Diagrama Metodológico | @Giuulob89 |
-
+|11/09/2021 |1.0.0 |Criando estrutura do arquivo | @GeiseSaunier|
+11/09/2021|1.0.1|Adição dos artefatos da metodologia aplicada | @GeiseSaunier e @IanoMaciel
+11/09/2021|1.0.2|Adição das nossas modificações em cima do SCRUM | @GeiseSaunier e @IanoMaciel
+11/09/2021 |1.0.3|Adição do diagrama metodológico do time | @GeiseSaunier e @IanoMaciel |
+11/09/2021 |1.0.4|Atualização dos novos dias da Daily | @GeiseSaunier e @IanoMaciel |
+11/09/2021 |1.0.5|Atualização dados da Daily, hora da reunião | @GeiseSaunier e @IanoMaciel |
+11/09/2021 |1.0.6|Atualização dados do Diagrama Metodológico | @Geise e @IanoMaciel |
 
 
 ## 1. Justificativa 
@@ -63,20 +62,20 @@ Os artefatos do Scrum são:
 
 ## Nossas Modificações
 
-Durante a primeira semana de projeto fizemos uma reunião geral acerca da estrutura do projeto. Em seguida, elaboramos uma planilha para que cada integrante da equipe pudesse preencher com seus horários disponíveis, objetivando assim escolher o melhor horário para as reuniões semanais. Após a escolha do horário, definimos o planejamento de acordo com a divisão abaixo:
+Durante a primeira semana de projeto fizemos uma reunião geral acerca da estrutura e dos horários que dedicaríamos ao desenvolvimento deste. Como somos apenas dois integrantes no time, as decisões foram, relativamente, simples. Dessa forma, definimos o planejamento de acordo com a divisão abaixo:
 
 ##### - Sprint (7 dias)
 
-Percebemos que um bom período da sprint seria de 7 dias e que um tempo maior que isso acabaria trazendo falta de comunicação e erros no andamento do projeto. A nossa sprint tem início na quinta-feira, às 14h e finaliza na quinta-feira da próxima semana às 11h:59min.
+Percebemos que um bom período da sprint seria de 7 dias e que um tempo maior que isso acabaria trazendo falta de comunicação e erros no andamento do projeto. A nossa sprint tem início na segunda, às 19h e finaliza na segunda da próxima semana às 18h.
 
-#### - Daily (De segunda-feira a quarta-feira)
+#### - Daily (Segunda-feira, quarta-feira e sexta-feira)
 
-Optamos pela Daily em três dias semanais apenas, pois achamos coerente quanto a comunicação e devido a disponibilidade do grupo. Todos os integrantes devem responder as seguintes perguntas:
+Optamos pela Daily em três dias semanais apenas, pois achamos coerente quanto a comunicação e devido a disponibilidade da dupla. Todos os integrantes devem responder as seguintes perguntas:
 - O que você fez desde a última sprint?
 - O que pretende fazer até a próxima?
 - Há algum obstáculo que esteja impedindo você ou a equipe de alcançar a meta do sprint?
 
-Ressalta-se que a equipe realiza comunicação diária acerca do projeto, tanto no telegram quanto nas issues criadas para cada assunto.
+Ressalta-se que a equipe realiza comunicação diária acerca do projeto, tanto no whatsApp quanto nas issues criadas para cada assunto.
 
 #### - Planejamento na quinta-feira: de 12h às 13h:30min (horário sempre oscilante)
 
@@ -95,8 +94,6 @@ Ainda utilizando o plugin do ZenHub vai ser útil para comparar o andamento do t
 
 Para evitar possíveis erros na branch de produção e para melhorar o fluxo de entrega contínua vamos aplicar o conceito de **integração contínua** e **deploy contínuo** que será utilizado um fluxo de build, testes e deploy.
 
-#### - Teste de Regressão
-
 #### - Definição de Pronto
 
 Vamos definir que alguma feature ou bug está concluído quando ele possuir 3 coisas
@@ -109,4 +106,4 @@ Para analisar o nível do código sendo produzido vamos utilizar ferramentas de 
 
 ## Diagrama metodológico
 
-![Imagen](https://raw.githubusercontent.com/fga-eps-mds/2020-1-Ziguen/develop/docs/diagramas/diagrama_metodologias.png)
+![Imagen]()
