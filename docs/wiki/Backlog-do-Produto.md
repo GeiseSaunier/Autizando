@@ -12,7 +12,7 @@
 | ID | DESCRIÇÃO |
 |----|-----------|
 |TM01| Autista |
-|TM02| Profissional/Especialista |
+|TM02| Profissional - Especialista |
 
 
 ## Épicos
@@ -26,8 +26,8 @@
 |----|-----------|----------------|
 | FT01 | CRUD do usuário autista | EP01 |
 | FT02 | CRUD do usuário profissional | EP02 |
-| FT03 | Usuário autista localizar profissional mais próximo| EP01 |
-| FT04 | Usuário autista enviar notificação ao profissional mais próximo | EP01 e EP02|
+| FT03 | Usuário autista deve localizar o profissional mais próximo| EP01 |
+| FT04 | Usuário autista deve enviar notificação ao profissional mais próximo | EP01 e EP02|
 | FT05 |  | EP01 |
 | FT06 |  | EP02 |
 | FT07 |  | EP02 |
