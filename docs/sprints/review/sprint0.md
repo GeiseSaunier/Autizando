@@ -9,7 +9,7 @@ Em primeiro momento, enumeramos os objetivos e descrevemos se foram alcançados 
 3. Discutir a criação das issues: concluído
 
 Em seguida, discutimos acerca das tarefas, se foram bem distribuidas ou não.
-1. Nesse primeiro momento, sim. Já que só discutimos os possíveis temas para o projeto.x
+1. Nesse primeiro momento, sim. Já que só discutimos os possíveis temas para o projeto.
 
 Obs: as tarefas estão relacionadas com os objetivos acima listados.
 
