@@ -8,7 +8,8 @@ Data|Versão|Descrição|Autor
 11/09/2021 |1.0.4|Atualização dos novos dias da Daily | @GeiseSaunier e @IanoMaciel |
 11/09/2021 |1.0.5|Atualização dados da Daily, hora da reunião | @GeiseSaunier e @IanoMaciel |
 11/09/2021 |1.0.6|Atualização dados do Diagrama Metodológico | @Geise e @IanoMaciel |
-
+14/09/2021 |1.0.7| Desenvolvimento do diagrama metodológico| @IanoMaciel |
+14/09/2021 |1.0.8|Adição do diagrama metodológico | @Geise |
 
 ## 1. Justificativa 
 
@@ -66,9 +67,9 @@ Durante a primeira semana de projeto fizemos uma reunião geral acerca da estrut
 
 ##### - Sprint (7 dias)
 
-Percebemos que um bom período da sprint seria de 7 dias e que um tempo maior que isso acabaria trazendo falta de comunicação e erros no andamento do projeto. A nossa sprint tem início na segunda, às 19h e finaliza na segunda da próxima semana às 18h.
+Percebemos que um bom período da sprint seria de 7 dias e que um tempo maior que isso acabaria trazendo falta de comunicação e erros no andamento do projeto. A nossa sprint tem início na segunda, às 18h e finaliza na segunda da próxima semana às 17h.
 
-#### - Daily (Segunda-feira, quarta-feira e sexta-feira)
+#### - Daily (Quarta-feira, quina-feira e sexta-feira)
 
 Optamos pela Daily em três dias semanais apenas, pois achamos coerente quanto a comunicação e devido a disponibilidade da dupla. Todos os integrantes devem responder as seguintes perguntas:
 - O que você fez desde a última sprint?
@@ -106,4 +107,4 @@ Para analisar o nível do código sendo produzido vamos utilizar ferramentas de 
 
 ## Diagrama metodológico
 
-![Imagen]()
+![Imagen](./../imagens/diagrama.png)
