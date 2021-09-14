@@ -2,13 +2,12 @@
 
 |    Data    | Versão |                             Alteração                             |                    Autor                    |
 |:----------:|:------:|:-----------------------------------------------------------------:|:-------------------------------------------:|
-| 09/09/2020 |   0.1  | Criação do documento | @GeiseSaunier |
-| 09/09/2020 |   0.2  | Adicionando referência de quantificação | @GeiseSaunier |
-| 09/09/2020 | 1.0 | Adicionando tratamento de riscos | @GeiseSaunier |
-| 15/09/2020 | 2.0 | Adicionando controle de riscos | @GeiseSaunier |
-| 03/10/2020 | 2.1 | R14 levantamento de riscos positivos | @edsondearaujo e @GeiseSaunier |
-| 07/10/2020 | 2.2 | Revisando gerência de riscos | @GeiseSaunier e @liversonp |
-| 07/10/2020 | 2.3 | Editidando erros na gerência de riscos | @gabrielapivetta e @liversonp |
+| 11/09/2021 |   0.1  | Criação do documento | @GeiseSaunier |
+| 14/09/2021 |   0.2  | Adicionando referência de quantificação | @GeiseSaunier e @IanoMaciel|
+| 14/09/2021 | 1.0 | Adicionando tratamento de riscos | @GeiseSaunier e @IanoMaciel |
+| 14/09/2021 | 2.0 | Adicionando controle de riscos | @GeiseSaunier e @IanoMaciel |
+| 14/09/2021 | 2.1 | Levantamento de riscos positivos | @GeiseSaunier e @IanoMaciel|
+|  | 2.2 | Revisando gerência de riscos | @GeiseSaunier e @IanoMaciel |
 
 ## 1- Levantamento de Riscos Negativos
 
@@ -25,7 +24,7 @@
 | R09 |   Comunicação entre o front-end e o back-end | Membros com pouco conhecimento em relação as tecnologias pode dificultar tal comunicação | Muito alta | 5 |
 | R10 |   Mudança nas tecnologias | Tecnologias escolhidas em primeiro momento, por conta da inexperiência, podem não ser suficientes para desenvolver todo o projeto em si | Alta | 5 |
 | R11 |   Problemas com equipamento de trabalho | Membros da equipe podem ser menos produtivos nas entregas devido ao baixo desempenho da máquina  | Moderada | 3 |
-
+| R12 |  A equipe alocada não ser suficiente para as demandas do projeto | O time dispõe de poucos integrantes, então o trabalho fica bem condensado e pode ser que a demanda em cada sprint seja maior que a entrega  | Muito alta | 5 |
 ## 2- Levantamento de Riscos Positivos
 
 | Label | Título | Descrição | Probabilidade | Nível do Impacto |
@@ -35,7 +34,7 @@
 | R14 | Alta produtividade da equipe | Alta produtividade da equipe reduz a probabilidade de se ocorrerem atrasos | Moderada | 5 |
 | R15 | Estabilidade técnica dos pipelines de produção | Com os pipelines estáveis, tem-se mais tempo para ser dedicado às outras atividades pertinentes ao projeto | Alta | 5 |
 | R16 | Arquitetura estar bem definida | Com uma arquitetura bem definida, menos mudanças impactantes ocorrem e, portanto, ocorre menos retrabalho | Muito alta | 5 |
-| R17 | Feedback de mentores | A equipe vem buscando apoio de monitores e com isso avançando no desenvolvimento do projeto | Moderada | 4 |
+| R17 | Feedback de professores | A equipe vem buscando feedback do professor responsável e com isso vem sempre avançando no desenvolvimento do projeto | Moderada | 4 |
 
 ## 3- Probabilidade x Impacto
 
@@ -114,3 +113,4 @@ Essa estratégia consiste em reconhecer que essa oportunidade existe porém não
 | R09 |   Comunicação entre o front-end e o back-end | Membros com pouca carga de conhecimento referente a essas duas frentes pode dificultar o desenvolvimento do projeto | Pesquisar, compartilhar e reunir o grupo para estudar possíveis soluções para resolver o problema.| 
 | R10 |   Mudança nas tecnologias | As tecnologias escolhidas podem não ser a melhor solução e dessa forma provocar uma mudança repentina no desenvolvimento projeto | Estudar, junto a equipe, soluções viáveis e pesquisar projetos de equipes anteriores ajuda a encontrar novos caminhos. |
 | R11 |   Problemas com equipamento de trabalho | Possíveis falhas na máquina dos membros da equipe. | Buscar identificar qual membro está com esse problema e oferecer um suporte adequado, seja emprestando outra ferramenta ou fazendo trabalho pareado, para que ambos participem. |
+| R12 |  A equipe alocada não ser suficiente para as demandas do projeto | O time dispõe de poucos integrantes, então o trabalho fica bem condensado e pode ser que a demanda em cada sprint seja maior que a entrega  | Muito alta | 5 |
