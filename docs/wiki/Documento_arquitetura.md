@@ -17,6 +17,7 @@
 | 1.2 |   | @GeiseSaunier e @IanoMaciel   | Atualização do DER |
 | 1.3 |   | @GeiseSaunier e @IanoMaciel   | Inclusão de tecnologias e alteração de tripulante para passageiro |
 | 1.4 |   | @GeiseSaunier e @IanoMaciel  | Atualização na descrição da nossa arquitetura MVC |
+| 1.5 |   | @GeiseSaunier | Atualização do Caso de Uso |
 
 
 ## Sumário
@@ -58,12 +59,12 @@
 ## 1- Introdução
 
 ### 1.1 - Finalidade
-O objetivo deste documento é apresentar a arquitetura do projeto Autizando. Apresentando os principais aspectos do software como um todo, apresentando decisões arquiteturais para o projeto e por fim contém informações que serão utilizadas por desenvolvedores e gestores para compreender a arquitetura utilizada no desenvolvimento, fluxo de informações e as tecnologias envolvidas no projeto.
+O objetivo deste documento é apresentar a arquitetura do projeto Autizando, explicando os principais aspectos do software como um todo, bem como as decisões arquiteturais para o projeto. Além disso, contém informações que serão utilizadas por desenvolvedores e gestores para compreender a arquitetura utilizada no desenvolvimento, fluxo de informações e as tecnologias envolvidas no projeto.
 
 ### 1.2 - Escopo
 
-O AUTIZANDO tem o propósito de tornar a consulta de pessoas portadoras do Transtorno do Espectro Autista - TEA  acessível e ágil, concentrando todas as informações necessárias para encontrar o especialista mais próximo em um único aplicativo. 
-A ferramenta trata-se de um aplicativo mobile, onde poderão ser cadastrados pessoas portadoras do TEA e profissionais especialistas em diversas áreas, como por exemplo psiquiatra, psicólogo, etc. Além disso, o autista e o profissional deverão inserir sua localidade, para que assim o autista possa ser atendido por aquele mais próximo.
+O AUTIZANDO tem o propósito de tornar a consulta de pessoas portadoras do Transtorno do Espectro Autista - TEA  acessível e ágil, concentrando todas as informações necessárias para encontrar o especialista mais próximo em uma única ferramenta. 
+A ferramenta trata-se de um aplicativo mobile, onde poderão ser cadastrados pessoas portadoras do TEA e profissionais especialistas em diversas áreas, como por exemplo, psiquiatra, psicólogo, etc. Para que o autista consiga localizar o profissional, ambos deverão inserir sua localidade, para que assim o autista possa ser atendido por aquele mais próximo.
 
 ### 1.3 - Visão Geral
 O documento está segmento em Representação de Arquitetura, Metas e Restrições da Arquitetura, Visão de Casos de Uso, Visão Lógica e Visão de Dados.
@@ -81,7 +82,7 @@ O documento está segmento em Representação de Arquitetura, Metas e Restriçõ
 
 ### 2.1 - Padrão Arquitetural	
 
-O MVC é um padrão de arquitetura de software, separando sua aplicação em três camadas. Nesse projeto a camada de interação do usuário (view), é a que faz a exibição dos dados, sendo ela por meio do framework react.js e next.js; a camada de manipulação dos dados (model), responsável pela leitura e escrita dos dados no banco de dados, nesse caso postgres usando a ferramenta sequelize, e também suas validações e a camada de controle (controller), responsável por receber todas as requisições do usuário, controlando qual model usar e qual view será mostrado ao usuário. Essa divisão em camadas é realizada para facilitar a resolução de um problema maior.
+O MVC é um padrão de arquitetura de software, onde separa sua aplicação em três camadas, sendo elas model, view e controller. Nesse projeto a camada de interação do usuário (view), é a que faz a exibição dos dados, sendo ela por meio do framework react.js e next.js; a camada de manipulação dos dados (model), responsável pela leitura e escrita dos dados no banco de dados, nesse caso postgres usando a ferramenta sequelize, e também suas validações e a camada de controle (controller), responsável por receber todas as requisições do usuário, controlando qual model usar e qual view será mostrado ao usuário. Essa divisão em camadas é realizada para facilitar a resolução de um problema maior.
 
 * Model: Camada da arquitetura responsável pela lógica de négocio, manipulação e validação de dados na aplicação.
 * View: Camada da arquitetura responsável pela exibição da interface com o usuário.
@@ -131,7 +132,7 @@ Front-end: View
 |idade |Obrigatório |String | Idade do usuário|
 |senha| Obrigatório |String | Senha do usuário |
 
-**USUÁRIO PROFISSIONAL**
+**USUÁRIO ESPECIALISTA**
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
 |idAdm |Chave primária obrigatória | String | Identificação do Administrador|
@@ -147,14 +148,16 @@ Front-end: View
 
 #### 4.1.2 Relacionamento
 
-**USUÁRIO AUTISA** -- localiza -- **USUÁRIO PROFISSIONAL** Um usuário autista pode localizar vários profissionais, se existirem mais de um próximo a localização do usuário autista. Nesse sentido, um profissional pode ser localizado por vários usuários autistas. (Cardinalidade n:n)
+**USUÁRIO AUTISA** -- localiza -- **USUÁRIO ESPECIALISTA** Um usuário autista pode localizar vários profissionais, se existirem mais de um próximo a sua localização. Nesse sentido, um profissional pode ser localizado por vários usuários autistas. (Cardinalidade n:n)
 
-**USUÁRIO AUTISA** -- envia notificação para -- **USUÁRIO PROFISSIONAL** Um usuário autista pode enviar uma única notificação para vários profissionais, dependendo do atendimento necessário no momento. Nesse sentido, um usuário profissional pode receber notificação de vários usuários autistas. (Cardinalidade 1:n)
+**USUÁRIO AUTISA** -- envia notificação para -- **USUÁRIO ESPECIALISTA** Um usuário autista pode enviar uma única notificação para vários profissionais, dependendo do atendimento necessário no momento. Nesse sentido, um usuário profissional pode receber notificação de vários usuários autistas. (Cardinalidade 1:n)
+
+**USUÁRIO ESPECIALISTA** -- aceita ou rejeita notificação do -- **USUÁRIO AUTISTA** Um usuário especilaista pode aceitar ou rejeitar a notificação de um usuário autista. Se aceitar, ocorrerá o match no aplicativo e o profissional entrará em contato com o usuário que enviou a notificação; se rejeitar, o usuário autista será notificado com uma mensagem pelo próprio aplicativo. (Cardinalidade 1:n)
 
 
 ### 4.2 DER
 
-![DER 0.1]()
+![DER]()
 
 ## 5 - Visão de Caso de Uso
 
@@ -165,19 +168,20 @@ Front-end: View
 
 |Ator| Descrição |
 |-----|-----|
-|Usuário| São todos os que forem utilizar o site |
+|Usuário| São todos os que fizerem uso do aplicativo |
 |Autista| É o usuário responsável por localizar o profissional mais próximo e enviar uma notificação|
-|Profissional/Especialista| É o usuário que receberá a notificação do usuário autista e entrará em contato com ele |
+|Profissional/Especialista| É o usuário que receberá a notificação do usuário autista, e entrará em contato com ele, caso aceite |
 
 
 ### 5.3 Descrições de Caso de Uso
 
 |Casos de uso| Ator | Descrição|
 |-----|-----|------|
-| UC01 - Criar conta | Usuário | O usuário tem a opção de criar conta, com as informações exigidas, antes de fazer login |
-| UC02 - Manter conta | Usuário | O usuário tem as opções de atualizar informações da conta assim como pode também apagá-la |
+| UC01 - Criar conta | Usuário | O usuário tem a opção de criar conta, de acordo com as informações exigidas|
+| UC02 - Manter conta | Usuário | O usuário tem as opções de atualizar informações da conta, bem como apagá-la |
 | UC02 - Pesquisar profissional | Autista | O usuário autista pode pesquisar pelo profissional mais próximo |
-| UC03 - Enviar notificação | Autista | Ao localizar o profissional desejado, o autista tem a opção de enviar uma notificação, com nome e número de telefone para que ele mantenha contato |
+| UC03 - Enviar notificação | Autista | Ao localizar o especialista desejado, o autista tem a opção de enviar uma notificação, com nome e número de telefone para que ele mantenha contato |
+| UC04 - Aceitar ou recusar notificação | Especialista | O especialista tem a opção de aceitar ou rejeitar uma notificação recebida |
 
 ## 6 - Referências Bibliográficas
 
