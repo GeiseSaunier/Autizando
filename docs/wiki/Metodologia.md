@@ -9,7 +9,7 @@ Data|Versão|Descrição|Autor
 11/09/2021 |1.0.5|Atualização dados da Daily, hora da reunião | @GeiseSaunier e @IanoMaciel |
 11/09/2021 |1.0.6|Atualização dados do Diagrama Metodológico | @Geise e @IanoMaciel |
 14/09/2021 |1.0.7| Desenvolvimento do diagrama metodológico| @IanoMaciel |
-14/09/2021 |1.0.8|Adição do diagrama metodológico | @Geise |
+14/09/2021 |1.0.8|Adição do diagrama metodológico | @GeiseSaunier |
 
 ## 1. Justificativa 
 

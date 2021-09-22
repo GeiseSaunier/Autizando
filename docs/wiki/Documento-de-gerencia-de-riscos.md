@@ -14,7 +14,7 @@
 | Label | Título | Descrição | Probabilidade | Nível do Impacto |
 | ----- | ------ | --------- | ------------- | ---------------- |
 | R01 | Escopo do projeto | O escopo do projeto é grande e pode ser que não seja possível finalizar | Alta | 5 |
-| R02 | Tecnologia desconhecida | Falta de conhecimento da tecnologia pode dificultar o desenvolvimento do projeto | Alta | 5 |
+| R02 | Tecnologia desconhecida | Falta de conhecimento de certas tecnologias pode dificultar o desenvolvimento do projeto | Alta | 5 |
 | R03 | Atraso nas entregas | Entregas não condizentes com o planejamento realizado | Moderada | 4 |
 | R04 |  Baixa produtividade da equipe | Entregas não condizentes com o planejamento realizado | Moderada | 5 |
 | R05 |  Falta de documentação | Falta de documentação atualizada com a implementação pode dificultar o acompanhamento do projeto | Muito alta | 5 |
@@ -23,7 +23,7 @@
 | R08 |   Pandemia | Membros podem produzir menos devido a situação atual | Muito alta | 5 |
 | R09 |   Comunicação entre o front-end e o back-end | Membros com pouco conhecimento em relação as tecnologias pode dificultar tal comunicação | Muito alta | 5 |
 | R10 |   Mudança nas tecnologias | Tecnologias escolhidas em primeiro momento, por conta da inexperiência, podem não ser suficientes para desenvolver todo o projeto em si | Alta | 5 |
-| R11 |   Problemas com equipamento de trabalho | Membros da equipe podem ser menos produtivos nas entregas devido ao baixo desempenho da máquina  | Moderada | 3 |
+| R11 |   Problemas com equipamento de trabalho | Membros da equipe podem ser menos produtivos nas entregas devido ao baixo desempenho de suas máquinas  | Moderada | 3 |
 | R12 |  A equipe alocada não ser suficiente para as demandas do projeto | O time dispõe de poucos integrantes, então o trabalho fica bem condensado e pode ser que a demanda em cada sprint seja maior que a entrega  | Muito alta | 5 |
 ## 2- Levantamento de Riscos Positivos
 
@@ -34,7 +34,7 @@
 | R14 | Alta produtividade da equipe | Alta produtividade da equipe reduz a probabilidade de se ocorrerem atrasos | Moderada | 5 |
 | R15 | Estabilidade técnica dos pipelines de produção | Com os pipelines estáveis, tem-se mais tempo para ser dedicado às outras atividades pertinentes ao projeto | Alta | 5 |
 | R16 | Arquitetura estar bem definida | Com uma arquitetura bem definida, menos mudanças impactantes ocorrem e, portanto, ocorre menos retrabalho | Muito alta | 5 |
-| R17 | Feedback de professores | A equipe vem buscando feedback do professor responsável e com isso vem sempre avançando no desenvolvimento do projeto | Moderada | 4 |
+| R17 | Feedback de professores | A equipe vem buscando feedback do professor responsável e com isso vem avançando no desenvolvimento do projeto | Moderada | 4 |
 
 ## 3- Probabilidade x Impacto
 
