@@ -157,12 +157,13 @@ Front-end: View
 
 ### 4.2 DER
 
-![DER]()
+![Diagrama Entidade Relacionamento](../imagens/DER.png)
 
 ## 5 - Visão de Caso de Uso
 
 ### 5.1 Diagrama de Caso de uso
-![Diagrama de casos de uso 0.1]()
+
+![Diagamra de Caso de Uso](../imagens/Use%20Case.png)
 
 ### 5.2 Atores de Caso de Uso
 
