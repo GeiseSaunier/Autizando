@@ -158,8 +158,12 @@ O sistema possui dois tipos de atores, sendo eles:
 
 **4.3  Diagrama de Casos de Uso**
 
+![Diagamra de Caso de Uso](../imagens/Use%20Case.png)
+
 **4.4  Diagrama de Pacotes**
 
 **4.5  Diagramas de Sequência**
 
 ### 5. Diagrama Entidade Relacionamento
+
+![Diagrama Entidade Relacionamento](../imagens/DER.png)
