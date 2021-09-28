@@ -1,5 +1,5 @@
 ## Período
-Duração: 13/09 à 20/09
+Duração: 20/09 à 27/09
 
 ## Monitoramento e Controle
 
