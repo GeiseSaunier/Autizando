@@ -3,7 +3,7 @@ Duração: 20/09 à 27/09
 
 
 ## Reunião
-* Data: 13/09
+* Data: 20/09
 * Hora: 18h
 * Local/Forma: Via Jitsi.
 
