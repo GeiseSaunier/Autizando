@@ -28,7 +28,7 @@ Em seguida, discutimos acerca das tarefas, se foram bem distribuidas ou não.
 |  [#8](https://github.com/GeiseSaunier/Autizando/issues/8) | Desenvolvimento da tela de perfil  | 5 | [Iano](https://github.com/IanoMaciel)  | em andamento |
 |  [#9](https://github.com/GeiseSaunier/Autizando/issues/9) |Desenvolvimento da tela de logout | 5 | [Geise](https://github.com/GeiseSaunier) | em andamento |
 |  [#12](https://github.com/GeiseSaunier/Autizando/issues/12) |Desenvolvimento do Menu| 5 | [Iano](https://github.com/IanoMaciel) | em andamento |
-|  [#14](https://github.com/GeiseSaunier/Autizando/issues/14) | Apresentação da documentação | 5 | [Geise](https://github.com/GeiseSaunier) | finalizado |
+|  [#14](https://github.com/GeiseSaunier/Autizando/issues/14) | Apresentação da documentação | 5 | [Geise](https://github.com/GeiseSaunier) | concluído |
 
 
 ## Retrospectiva
