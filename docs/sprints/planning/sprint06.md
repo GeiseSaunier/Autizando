@@ -32,7 +32,7 @@ Duração: 27/09 à 04/10
 |  [#16](https://github.com/GeiseSaunier/Autizando/issues/16) | Desenvolvimento da tela de perfil  | 5 | [Iano](https://github.com/IanoMaciel) | em andamento |
 |  [#17](https://github.com/GeiseSaunier/Autizando/issues/17) | Desenvolvimento da tela de formulário para o profissional | 5 | [Geise](https://github.com/GeiseSaunier) | em andamento |
 |  [#18](https://github.com/GeiseSaunier/Autizando/issues/18) | Desenvolvimento da tela de formulário para o paciente  | 5 | [Iano](https://github.com/IanoMaciel) | em andamento |
-|  [#18](https://github.com/GeiseSaunier/Autizando/issues/19) | Desenvolvimento da tela editar perfil | 5 | [Geise](https://github.com/GeiseSaunier) | em andamento |
+|  [#19](https://github.com/GeiseSaunier/Autizando/issues/19) | Desenvolvimento da tela editar perfil | 5 | [Geise](https://github.com/GeiseSaunier) | em andamento |
 
 
 
