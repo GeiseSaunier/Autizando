@@ -39,12 +39,13 @@
 - 4.10 Diagrama de Componentes
 - 4.11 Diagrama de Pacotes
 - 4.12 Diagrama de Comunicação
-5. **Diagrama Entidade Relacionamento**
-6. **Modelo Lógico**
-7. **Projeto Interface**
-- 7.1 Baixa Fidelidade
-- 7.2 Alta Fidelidade
-8. **Referências**
+5. **Modelagem do Banco de Dados**
+- 5.1 Diagrama Entidade Relacionamento
+- 5.2 Modelo Lógico
+6. **Projeto Interface**
+- 6.1 Baixa Fidelidade
+- 6.2 Alta Fidelidade
+7. **Referências**
 
 
 ### 1.  Introdução
@@ -137,7 +138,6 @@ O sistema possui dois tipos de atores, sendo eles:
 
 ### 4. Regras de Negócio
 
-
 | Num | Requisito Associado | Nome da RN| Descrição |
 | ---- | ----| ----| ----
 | RN 01 | RF 01 | Cadastro do usuário autista| Um usuário autista só poderá ser cadastrado se informar: nome, e-mail, telefone, cidade, estado, idade e uma senha |
@@ -147,23 +147,39 @@ O sistema possui dois tipos de atores, sendo eles:
 | RN 04 | RF 01 | Perfil do usuário autista | O sistema deve permitir um perfil específico ao usuário autista|
 | RN 04 | RF 02 | Perfil do usuário especialista | O sistema deve permitir um perfil específico ao usuário especialista |
 
-
 **4.1 Restrições de Software**
 
 | Num | Restrição |
 | ---- | ----|
 | 1 | O aplicativo poderá ser acessado por usuários do Sistemas Operacionais Android e IOS |
 
-**4.2  Identificação dos Casos de Uso**
+**4.2 Arquitetura de Software**
 
-**4.3  Diagrama de Casos de Uso**
+**4.3  Identificação dos Casos de Uso**
+
+**4.4  Diagrama de Casos de Uso**
 
 ![Diagamra de Caso de Uso](../imagens/CasosDeUso.png)
 
-**4.4  Diagrama de Pacotes**
+**4.5 Diagrama de Classes**
 
-**4.5  Diagramas de Sequência**
+**4.6 Diagramas de Sequência**
 
-### 5. Diagrama Entidade Relacionamento
+**4.7 Diagramas de Estados**
 
-![Diagrama Entidade Relacionamento](../imagens/DER.png)
+**4.8 Diagrama de Objetos**
+
+**4.9 Diagrama de Atividades**
+
+**4.10 Diagrama de Componentes**
+
+**4.11  Diagrama de Pacotes**
+### 5. Modelagem do banco de dados
+
+**5.1 Diagrama Entidade Relacionamento**
+
+![Diagrama Entidade Relacionamento](../imagens/DER-ModeloConceitual.png)
+
+**5.2 Modelo lógico**
+
+![Modelo Lógico](../imagens/ModeloLogico.png)
