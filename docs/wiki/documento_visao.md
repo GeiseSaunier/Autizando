@@ -162,6 +162,7 @@ O sistema possui dois tipos de atores, sendo eles:
 ![Diagamra de Caso de Uso](../imagens/CasosDeUso.png)
 
 **4.5 Diagrama de Classes**
+![Diagrama de Classes](../imagens/Classes.png)
 
 **4.6 Diagramas de Sequência**
 
