@@ -2,51 +2,42 @@
 
 | Data       | Versão | Descrição            |         Autor             |
 |:----------:|:------:|:--------------------:|:-------------------------:|
-| 09/09/2020 | 0.1 | Criação do Documento com tema, épico, funcionalidades e user story  | @GeiseSaunier |
-|  | 0.2 | Revisão dos termos utilizados  | |
-|  | 0.3 | Generalização de termos  |  |
-|  | 0.4 | Adicionando novas Features e User Storys  |  |
-| 03/10/20 | 0.5 | Ajustes na ortografia  | Edson e Geise |
-| 25/10/20 | 0.6 | Restruturar backlog | Edson e Francisco |
-| 25/10/20 | 0.7 | Terminando a restruturar backlog | Edson e Francisco |
+| 10/09/2021 | 0.1 | Criação do Documento com tema, épico, funcionalidades e user story  | @GeiseSaunier |
+| 11/09/2021 | 0.2 | Revisão dos termos utilizados  | @GeiseSaunier e @IanoMaciel|
+| 21/09/2021 | 0.3 | Revisão do backlog do produto  | @GeiseSaunier e @IanoMaciel|
+
 
 
 # Versão 1
 
 ## Tema
+
 | ID | DESCRIÇÃO |
 |----|-----------|
-|TM01| Administrador|
-|TM02| Passageiro|
-|TM03| Proprietário|
+|TM01| Autista |
+|TM02| Profissional - Especialista |
 
 
 ## Épicos
 | ID | DESCRIÇÃO | ID RELACIONADO (TEMA) |
 |----|-----------|----------------|
-| EP01 | Como um usuário administrador, eu desejo gerenciar todo sistema ziguen | TM01 |
-| EP02 | Como um usuário passageiro, eu desejo realizar compra de passagem de barco | TM02 |
+| EP01 | Como um usuário autista, eu desejo encontrar o especialista mais perto de minha localidade | TM01 |
+| EP02 | Como um usuário profissional, eu desejo receber uma notificação do paciente autista mais próximo, com nome e número de contato, para que eu possa entrar em contato em um horário mais adequado a minha agenda diária  | TM02 |
 
 ## Funcionalidades (Features)
 | ID | DESCRIÇÃO | ID RELACIONADO (ÉPICOS) |
 |----|-----------|----------------|
-| FT01 | CRUD do usuário administrador | EP01 |
-| FT02 | Gestão do usuário proprietário | EP01 |
-| FT03 | Gerenciamento da embarcação | EP01 |
-| FT04 | Administrar viagens | EP01 |
-| FT05 | Vendas de passagem | EP01 |
-| FT06 | CRUD do usuário passageiro | EP02 |
-| FT07 | Compra de passagem | EP02 |
-
+| FT01 | CRUD do usuário autista | EP01 |
+| FT02 | CRUD do usuário especialista | EP02 |
+| FT03 | Usuário autista deve localizar o profissional mais próximo| EP01 |
+| FT04 | Usuário autista deve enviar notificação ao profissional mais próximo | EP01 e EP02|
+| FT05 | Usuário especialista deve aceitar ou recusar a notificação do usuário autista | EP01 e EP02 |
 
 ## User Story
 
 |    ID   |      Tipo     |     Eu como    |      Desejo       | De modo que | Prioridade | Status    | ID RELACIONADO (FEATURES) |
 |:-------:|:-------------:|:--------------:|:-----------------:|:-----------:|:----------:|:---------:|:-------------------------------:|
-|    US01    |   Funcional   | Usuário administrador       | realizar meu cadastro na plataforma Ziguen | eu consiga cadastrar um novo administrador| Alta | Desenvolvimento | FT01 |
-|    US01    |   Funcional   | Usuário administrador       | gerir dados do usuário proprietário | eu consiga cadastrar, visualizar, editar e excluir o usuário| Alta | Desenvolvimento | FT02 |
-|    US01    |   Funcional   | Usuário administrador       | administrar a embacarção | eu consiga registrar e relacionar com a FT02 | Alta | Desenvolvimento | FT03 |
-|    US01    |   Funcional   | Usuário administrador       | fazer a gestão de viagem | eu consiga gerenciar rotas de viagens  | Alta | Desenvolvimento | FT04 |
-|    US01    |   Funcional   | Usuário administrador       | realizar venda de passagens | eu consiga criar e alterar dados da passagem  | Alta | Desenvolvimento | FT05 |
-|    US02    |   Funcional   | Usuário passageiro   | fazer cadastro | eu consiga cadastrar e logar no sistema | Alta | Desenvolvimento | FT06 |
-|    US02    |   Funcional   | Usuário passageiro   | realizar compra de passagem | eu consiga logar e comprar as passagem | Alta | Desenvolvimento | FT07 |
+|    US01    |   Funcional   | Usuário autista       | realizar meu cadastro no aplicativo autizando | eu consiga acessar meu perfil específico | Alta | Desenvolvimento | FT01 |
+|    US01    |   Funcional   | Usuário profissional   | realizar meu cadastro no aplicativo autizando| eu consiga acessar meu perfil específico | Alta | Desenvolvimento | FT02 |
+|    US01    |   Funcional   | Usuário autista       | encontrar um profissional/especialista mais próximo de mim | eu consiga enviar uma notificação com meu nome e número de contato para que o profissional entre em contato comigo | Alta | Desenvolvimento | FT03 |
+|    US01    |   Funcional   | Usuário profissional       | receber notificação do usuário autista mais próximo | eu posso aceitar a notificação e consiga entrar em contato para atendê-lo, por um valor social, no horário mais adequado, de acordo com a minha agenda diária   | Alta | Desenvolvimento | FT04 |

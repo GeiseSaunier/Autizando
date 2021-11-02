@@ -11,8 +11,6 @@ Em primeiro momento, enumeramos os objetivos e descrevemos se foram alcançados 
 
 Em seguida, discutimos acerca das tarefas, se foram bem distribuidas ou não.
 
-1. Nesse primeiro momento, sim, visto que as atividades desenvolvidas giraram apenas em torno de estudo.
-
 ### Presenças Sprint Plaining
 | Membros  |  Presença  |
 | ------------------- | ------------------- |
