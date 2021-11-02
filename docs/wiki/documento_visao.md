@@ -4,7 +4,7 @@
 |  1.0 |  11/09/2021 | @GeiseSaunier |  Criação do documento de visão |
 |  1.1 |  11/09/2021 | @GeiseSaunier e @IanoMaciel |  Inserção dos requisitos funcionais, não funcionais e regras de negócio |
 | 2.0  |  11/09/2021 | @GeiseSaunier e @IanoMaciel |  Documento de Arquitetura |
-|   |   |   |   |
+| 2.1  |  12/10/2021 | @RafaelGuedes953  | Atualização requisitos não funcionais, diagrama de casos de uso, diagrama de classes, modelo lógico do banco de dados  |
 |   |   |   |   |
 |   |   |   |   |
 |   |   |   |   |
@@ -22,7 +22,7 @@
 2.  **Descrição Geral do Produto**
 - 2.1. Situação Atual
 - 2.2. Escopo
-- .3. Atores
+- 2.3. Atores
 3. **Requisitos**
 - 3.1 Requisitos Funcionais
 - 3.2 Requisitos Não Funcionais
@@ -39,12 +39,13 @@
 - 4.10 Diagrama de Componentes
 - 4.11 Diagrama de Pacotes
 - 4.12 Diagrama de Comunicação
-5. **Diagrama Entidade Relacionamento**
-6. **Modelo Lógico**
-7. **Projeto Interface**
-- 7.1 Baixa Fidelidade
-- 7.2 Alta Fidelidade
-8. **Referências**
+5. **Modelagem do Banco de Dados**
+- 5.1 Diagrama Entidade Relacionamento
+- 5.2 Modelo Lógico
+6. **Projeto Interface**
+- 6.1 Baixa Fidelidade
+- 6.2 Alta Fidelidade
+7. **Referências**
 
 
 ### 1.  Introdução
@@ -103,8 +104,8 @@ O sistema possui dois tipos de atores, sendo eles:
 
 | Num  |  Ator  | Definição e Privilégio de Acesso e Segurança |  
 | ------------------- | ------------------- | ------------------- | 
-|  1 |  Usuário Autista | Terá a opção de localizar o profissional mais próximo e enviar uma notificação para tentar uma possível consulta |
-|  2 |  Usuário Especialista | Receberá a notificação do autista mais próximo, com nome e número de telefone, podendo aceitar ou rejeitar. Caso aceite, entrará em contato pelo número disponibilizado. Em caso de rejeição, o autista será informado pelo próprio aplicativo. |
+|  1 |  Usuário Autista | Terá a opção de localizar o profissional mais próximo e enviar uma notificação para tentar uma possível consulta. Será informado pelo aplicativo, caso o especialista rejeite o atendimento |
+|  2 |  Usuário Especialista | Receberá a notificação do autista mais próximo, com nome e número de telefone, podendo aceitar ou rejeitar. Caso aceite, entrará em contato pelo número disponibilizado. |
 
 ### 3. Requisitos
 
@@ -126,17 +127,16 @@ O sistema possui dois tipos de atores, sendo eles:
 
 |ID| Descrição| Prioridade|
 |--------|--------|--------|
-| RF 01| Os dados dos usuários clientes serão gravados no sistema de banco de dados utilizando criptografia de dados SHA3.| Segurança |
-| RF 02| O sistema deve ser desenvolvido para mobile.| Interoperabilidade |
-| RF 03| O sistema deve dispor de design responsivo.| Usabilidade |
-| RF 04| O sistema deve utilizar o padrão UML 2.0 para a documentação.| Padrões |
-| RF 05| O sistema deve utilizar a linguagem de programação Javascript, aliado ao framework React Native com o auxílio do expo.| Portabilidade |
-| RF 06| A interface do sistema deve ser de fácil manipulação.| Usabilidade | 
-| RF 08| Os dados do usuário cliente serão trafegados no sistema de banco de dados utilizando criptografia de dados SHA3. | Segurança |
+| RNF 01| Os dados dos usuários clientes serão gravados no sistema de banco de dados utilizando criptografia de dados SHA3.| Segurança |
+| RNF 02| O sistema deve ser desenvolvido para mobile.| Interoperabilidade |
+| RNF 03| O sistema deve dispor de design responsivo.| Usabilidade |
+| RNF 04| O sistema deve utilizar o padrão UML 2.0 para a documentação.| Padrões |
+| RNF 05| O sistema deve utilizar a linguagem de programação Javascript, aliado ao framework React Native com o auxílio do expo.| Portabilidade |
+| RNF 06| A interface do sistema deve ser de fácil manipulação.| Usabilidade | 
+| RNF 08| Os dados do usuário cliente serão trafegados no sistema de banco de dados utilizando criptografia de dados SHA3. | Segurança |
 
 
 ### 4. Regras de Negócio
-
 
 | Num | Requisito Associado | Nome da RN| Descrição |
 | ---- | ----| ----| ----
@@ -147,23 +147,40 @@ O sistema possui dois tipos de atores, sendo eles:
 | RN 04 | RF 01 | Perfil do usuário autista | O sistema deve permitir um perfil específico ao usuário autista|
 | RN 04 | RF 02 | Perfil do usuário especialista | O sistema deve permitir um perfil específico ao usuário especialista |
 
-
 **4.1 Restrições de Software**
 
 | Num | Restrição |
 | ---- | ----|
 | 1 | O aplicativo poderá ser acessado por usuários do Sistemas Operacionais Android e IOS |
 
-**4.2  Identificação dos Casos de Uso**
+**4.2 Arquitetura de Software**
 
-**4.3  Diagrama de Casos de Uso**
+**4.3  Identificação dos Casos de Uso**
 
-![Diagamra de Caso de Uso](../imagens/Use%20Case.png)
+**4.4  Diagrama de Casos de Uso**
 
-**4.4  Diagrama de Pacotes**
+![Diagamra de Caso de Uso](../imagens/CasosDeUso.png)
 
-**4.5  Diagramas de Sequência**
+**4.5 Diagrama de Classes**
+![Diagrama de Classes](../imagens/Classes.png)
 
-### 5. Diagrama Entidade Relacionamento
+**4.6 Diagramas de Sequência**
 
-![Diagrama Entidade Relacionamento](../imagens/DER.png)
+**4.7 Diagramas de Estados**
+
+**4.8 Diagrama de Objetos**
+
+**4.9 Diagrama de Atividades**
+
+**4.10 Diagrama de Componentes**
+
+**4.11  Diagrama de Pacotes**
+### 5. Modelagem do banco de dados
+
+**5.1 Diagrama Entidade Relacionamento**
+
+![Diagrama Entidade Relacionamento](../imagens/DER-ModeloConceitual.png)
+
+**5.2 Modelo lógico**
+
+![Modelo Lógico](../imagens/ModeloLogico.png)
