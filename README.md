@@ -1,6 +1,6 @@
 # Autizando
 ## Sobre o repositório
-Repositório destinado ao desenvolvimento de um aplicativo destinando a pessoas portadoras do TEA.
+Repositório destinado ao desenvolvimento técnico da aplicação: documentação, planning, review, diagramas, etc.
 
 ## Sobre a aplicação
 O AUTIZANDO tem o propósito de tornar a consulta de pessoas portadoras do Transtorno do Espectro Autista - TEA acessível e ágil, concentrando todas as informações necessárias para encontrar o especialista mais próximo em uma única ferramenta. A ferramenta trata-se de um aplicativo mobile, onde poderão ser cadastrados pessoas portadoras do TEA e profissionais especialistas em diversas áreas, como por exemplo, psiquiatra, psicólogo, etc. Para que o autista consiga localizar o profissional, ambos deverão inserir sua localidade, para que assim o autista possa ser atendido por aquele mais próximo.
