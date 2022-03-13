@@ -1,52 +1,13 @@
 ## Histórico de Versões
 | Versão  |  Data  | Autor  |  Descrição  |
 | ------------------- | ------------------- | ------------------- | ------------------- |
-|  1.0 |  11/09/2021 | @GeiseSaunier |  Criação do documento de visão |
-|  1.1 |  11/09/2021 | @GeiseSaunier e @IanoMaciel |  Inserção dos requisitos funcionais, não funcionais e regras de negócio |
-| 2.0  |  11/09/2021 | @GeiseSaunier e @IanoMaciel |  Documento de Arquitetura |
-| 2.1  |  12/10/2021 | @RafaelGuedes953  | Atualização requisitos não funcionais, diagrama de casos de uso, diagrama de classes, modelo lógico do banco de dados  |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-
-
-## Sumário
-1.  **Introdução**
-- 1.1. Propósito do Documento de Requisitos
-- 1.2. Público Alvo
-2.  **Descrição Geral do Produto**
-- 2.1. Situação Atual
-- 2.2. Escopo
-- 2.3. Atores
-3. **Requisitos**
-- 3.1 Requisitos Funcionais
-- 3.2 Requisitos Não Funcionais
-4. **Regras de Negócio**
-- 4.1 Restrições de Software
-- 4.2 Arquitetura de Software - Modelo-Visão-Controlador (MVC)
-- 4.3 Identificação dos Casos de Uso
-- 4.4 Diagrama de Casos de Uso
-- 4.5 Diagrama de Classes
-- 4.6 Diagramas de Sequência
-- 4.7 Diagramas de Estados
-- 4.8 Diagrama de Objetos
-- 4.9 Diagrama de Atividades
-- 4.10 Diagrama de Componentes
-- 4.11 Diagrama de Pacotes
-- 4.12 Diagrama de Comunicação
-5. **Modelagem do Banco de Dados**
-- 5.1 Diagrama Entidade Relacionamento
-- 5.2 Modelo Lógico
-6. **Projeto Interface**
-- 6.1 Baixa Fidelidade
-- 6.2 Alta Fidelidade
-7. **Referências**
-
+| 1.0 |  11/09/2021 | @GeiseSaunier |  Criação do documento de visão |
+| 1.1 |  11/09/2021 | @GeiseSaunier e @IanoMaciel |  Inserção dos requisitos funcionais, não funcionais e regras de negócio |
+| 2.0 |  11/09/2021 | @GeiseSaunier e @IanoMaciel |  Documento de Arquitetura |
+| 2.1 |  12/10/2021 | @RafaelGuedes953  | Atualização requisitos não funcionais, diagrama de casos de uso, diagrama de classes, modelo lógico do banco de dados  |
+| 2.2 |  13/03/2022 | @GabrielTavares | Inserção do diagrama de atividades |
+| 2.3 |  13/03/2022 | @CarlosEduardo  |Inserção dos diagramas de sequência |
+| 2.4 |  13/03/2022 | @GeiseSaunier  | Atualização do documento de visão |
 
 ### 1.  Introdução
 
