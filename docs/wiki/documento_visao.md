@@ -126,6 +126,12 @@ O sistema possui dois tipos de atores, sendo eles:
 ![Diagrama de Classes](../imagens/Classes.png)
 
 **4.6 Diagramas de Sequência**
+![Sequence Diagram](../imagens/CadastraUsuários.png)
+![Sequence Diagram](../imagens/LoginUsuários.png)
+![Sequence Diagram](../imagens/BuscarProfissional.png)
+![Sequence Diagram](../imagens/ExcluirDados.png)
+![Sequence Diagram](../imagens/EditarDados.png)
+![Sequence Diagram](../imagens/Notificação.png)
 
 **4.7 Diagramas de Estados**
 
