@@ -171,6 +171,7 @@ O sistema possui dois tipos de atores, sendo eles:
 **4.8 Diagrama de Objetos**
 
 **4.9 Diagrama de Atividades**
+![Activity Diagram](../imagens/DiagramaDeAtividade.png)
 
 **4.10 Diagrama de Componentes**
 
