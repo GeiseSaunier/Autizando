@@ -7,53 +7,23 @@
 | 0.2 | 11/09/2021 | @GeiseSaunier e @IanoMaciel  | Implementação da representação de arquitetura |
 | 0.3 | 11/09/2021  | @GeiseSaunier e @IanoMaciel | Implementação das metas e restrições da arquitetura|
 | 0.4 | 11/09/2021  | @GeiseSaunier e @IanoMaciel  | Implementação da Introdução do Documento de arquitetura|
-| 0.5 |   | @GeiseSaunier e @IanoMaciel | Implementação do MER|
-| 0.6 |   | @GeiseSaunier e @IanoMaciel | Criação do DER|
-| 0.7 |   | @GeiseSaunier e @IanoMaciel  | Adição do diagrama de casos de uso|
-| 0.8 |   | @GeiseSaunier e @IanoMaciel  | Ajustes no MER|
-| 0.9 |   | @GeiseSaunier e @IanoMaciel   | Ajustes no DER|
-| 1.0 |   | @GeiseSaunier e @IanoMaciel  | Revisão do documento de arquitetura|
-| 1.1 |   | @GeiseSaunier e @IanoMaciel   | Diagrama de representação|
-| 1.2 |   | @GeiseSaunier e @IanoMaciel   | Atualização do DER |
-| 1.3 |   | @GeiseSaunier e @IanoMaciel   | Inclusão de tecnologias e alteração de tripulante para passageiro |
-| 1.4 |   | @GeiseSaunier e @IanoMaciel  | Atualização na descrição da nossa arquitetura MVC |
-| 1.5 |   | @GeiseSaunier | Atualização do Caso de Uso |
+| 0.5 | 13/09/2021  | @GeiseSaunier e @IanoMaciel | Implementação do MER|
+| 0.6 | 15/09/2021 | @GeiseSaunier e @IanoMaciel | Criação do DER|
+| 0.7 | 17/09/2021  | @GeiseSaunier e @IanoMaciel  | Adição do diagrama de casos de uso|
+| 0.8 | 20/09/2021 | @GeiseSaunier e @IanoMaciel  | Ajustes no MER|
+| 0.9 | 27/09/2021  | @GeiseSaunier e @IanoMaciel   | Ajustes no DER|
+| 1.0 | 30/09/2021 | @GeiseSaunier e @IanoMaciel  | Revisão do documento de arquitetura|
+| 1.1 | 02/10/2021 | @GeiseSaunier e @IanoMaciel   | Diagrama de representação|
+| 1.2 | 03/10/2021  | @GeiseSaunier e @IanoMaciel   | Atualização do DER |
+| 1.3 | 07/10/2021  | @GeiseSaunier e @IanoMaciel   | Inclusão de tecnologias e alteração de tripulante para passageiro |
+| 1.4 | 11/10/2021  | @GeiseSaunier e @IanoMaciel  | Atualização na descrição da nossa arquitetura MVC |
+| 1.5 | 15/10/2021  | @GeiseSaunier | Atualização do Caso de Uso |
+| 1.6 | 10/02/2022  | @GeiseSaunier, @CarlosEduardo, @GabrielTavares | Atualização da finalidade do projeto, escopo, definições, acrônimos e abreviações |
+| 1.7 | 22/02/2022  | @GeiseSaunier | Atualização do diagrama de classes e diagrama de caso de uso |
+| 1.8 | 10/03/2022  | @GabrielTavares | Criação do diagrama de atividades |
+| 1.9 | 10/03/2022  |  @CarlosEduardo | Criação dos diagramas de sequência |
+| 2.0 | 11/03/2022  | @GeiseSaunier, @CarlosEduardo, @GabrielTavares | Edição da estrutura geral do projeto |
 
-
-## Sumário
-1- [Introdução](#1--introdução)
-* [1.1 - Finalidade](#1.1---finalidade)
-* [1.2 - Escopo](#1.2---escopo)
-* [1.3 - Visão Geral](#1.3---Visão-Geral)
-* [1.4 - Definições,-acrônomos-e-Abreviações](#1.4---Definições,-acrônomos-e-Abreviações)
-
-2- [Representação de Arquitetura](##-2---Representação-de-Arquitetura
-)
-
-* [2.1 - Padrão Arquitetural](###2.1---Padrão-Arquitetural)
-* [2.2 - Tecnologias](#2.2---Tecnologias)
-
-3- [Metas e Restrições da Arquitetura](#3---Metas-e-Restrições-da-Arquitetura)
-
-* [ 3.1- Metas do Autizando](#3.1--Metas-do-Autizando)
-* [3.2- Restrições da Arquitetura](#3.2--Restrições-da-Arquitetura)
-
-
-4- [Visão de Dados](#4---Visão-de-Dados)
-* [4.1 - MER](#4.1---MER)
-  * [4.1.1 -Entidades](#4.1.1--Entidades)
-  * [4.1.2 Relacionamento](4.1.2-Relacionamento)
-
-* [4.2 DER
-](#4.2-DER)
-
-5- [Visão de Caso de Uso](#5---Visão-de-Caso-de-Uso)
-* [5.1 - Diagrama de Caso de uso](#5.1---Diagrama-de-Caso-de-uso)
-* [5.2- Atores de Caso de Uso](#5.2---Atores-de-Caso-de-Uso)
-* [5.3- Descrições de Caso de Uso3](#5.3----Descrições-de-Caso-de-Uso)
-
-
-6- [Referências Bibliográficas](#7---Referências-Bibliográficas)
 
 
 ## 1- Introdução
